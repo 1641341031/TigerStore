@@ -16,9 +16,40 @@
   ],
   "window":{
     "backgroundTextStyle":"light",
-    "navigationBarBackgroundColor": "#fff",
+    "navigationBarBackgroundColor": "#eb4450",
     "navigationBarTitleText": "TigerStore",
-    "navigationBarTextStyle":"black"
+    "navigationBarTextStyle":"white"
+  },
+  "tabBar": {
+    "color": "#999",
+    "selectedColor": "#ff2d4a",
+    "backgroundColor": "#fafafa",
+    "position": "bottom",
+    "borderStyle": "black",
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "首页",
+      "iconPath": "icon/home.png",
+      "selectedIconPath": "icon/homeSelected.png"
+    },
+    {
+      "pagePath": "pages/category/index",
+      "text": "分类",
+      "iconPath": "icon/classify.png",
+      "selectedIconPath": "icon/classifySelected.png"
+    },
+    {
+      "pagePath": "pages/cart/index",
+      "text": "购物车",
+      "iconPath": "icon/cart.png",
+      "selectedIconPath": "icon/carSelected.png"
+    },
+    {
+      "pagePath": "pages/user/index",
+      "text": "我的",
+      "iconPath": "icon/user.png",
+      "selectedIconPath": "icon/userSelected.png"
+    }]
   },
   "style": "v2",
   "sitemapLocation": "sitemap.json"
