@@ -12,3 +12,7 @@ page{
   /* 定义统一字体颜色 */
   font-size: 28rpx;
 }
+
+image{
+  width: 100%;
+}
